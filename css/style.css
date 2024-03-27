@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+section {
+    width: 80%;
+    margin: 50px auto;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.radio-group input[type="radio"],
+.toppings input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.subres {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#submitBtn {
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+#submitBtn:hover {
+    background-color: darkblue;
+}
+
+.informationToDisplayed {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+}

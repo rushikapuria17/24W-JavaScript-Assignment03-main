@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <form id="pizzaForm">
+            <section>
+                <h1>Name: Rushi Kiranbhai Kapuria | Number: 200556077</h1>
+                <h1>Your Own Delicious Pizza</h1>
+            </section>
+            <div>
+                <label for="pizzaSize">Choose A Pizza Size : </label>
+                <select id="pizzaSize" name="pizzaSize">
+                    <option>Personal Pizza Slice</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select><br>
+            </div>
+            <div>
+                <label for="crust">Choose A Crust : </label>
+                <select id="crust" name="crust">
+                    <option>Original Hand Tossed</option>
+                    <option>Hand Tossed Thin</option>
+                    <option>Crunchy Thin Crust</option>
+                    <option>Handmade Pan</option>
+                    <option>Gluten Free Crust</option>
+                </select><br>
+            </div>
+            <div>
+                <label for="quantity">Quantity: </label>
+                <input type="number" id="quantity" name="quantity" required><br>
+            </div>
+            <div>
+                    <h4>Choose A Sauce : </h4>
+                    <input type="radio" name="sauce" value="Pizza Sauce">
+                    <label for="pizzaSauce">Pizza Sauce</label>
+                    <input type="radio" name="sauce" value="BBQ Sauce">
+                    <label for="bbqSauce">BBQ Sauce</label>
+                    <input type="radio" name="sauce" value="Alfredo Sauce">
+                    <label for="alfredoSauce">Alfredo Sauce</label>
+                    <input type="radio" name="sauce" value="Hearty Marinara Sauce">
+                    <label for="marinaraSauce">Hearty Marinara Sauce</label>
+                    <input type="radio" name="sauce" value="Ranch Dressing Sauce">
+                    <label for="ranchDressing">Ranch Dressing Sauce</label>
+                    <input type="radio" name="sauce" value="Garlic Parmesan Sauce">
+                    <label for="garlicParmesanSauce">Garlic Parmesan Sauce</label><br>
+            </div>
+
+            <div class="cheese">
+                    <h4>Choose Cheese Type : </h4>
+                    <input type="radio" name="cheese" value="Mozzarella Cheese">
+                    <label for="mozzarellaCheese">Mozzarella Cheese</label>
+                    <input type="radio" name="cheese" value="Provolone Cheese">
+                    <label for="provoloneCheese">Provolone Cheese</label>
+                    <input type="radio" name="cheese" value="Cheddar Cheese">
+                    <label for="cheddarCheese">Cheddar Cheese</label>
+                    <input type="radio" name="cheese" value="Parmesan Cheese">
+                    <label for="parmesanCheese">Parmesan Cheese</label><br>
+            </div>
+
+            <div class="toppings">
+                    <h4>Choose Toppings : </h4>
+                    <input type="checkbox" name="topping" value="Pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" name="topping" value="Sausage">
+                    <label for="sausage">Sausage</label>
+                    <input type="checkbox" name="topping" value="Chicken">
+                    <label for="chicken">Chicken</label>
+                    <input type="checkbox" name="topping" value="Bacon">
+                    <label for="bacon">Bacon</label>
+                    <input type="checkbox" name="topping" value="Black Olives">
+                    <label for="blackOlives">Black Olives</label>
+                    <input type="checkbox" name="topping" value="Hot Banana Peppers">
+                    <label for="hotBananaPeppers">Hot Banana Peppers</label>
+                    <input type="checkbox" name="topping" value="Mushroom">
+                    <label for="mushroom">Mushroom</label>
+                    <input type="checkbox" name="topping" value="Onions">
+                    <label for="onions">Onions</label>
+                    <input type="checkbox" name="topping" value="Tomatoes">
+                    <label for="tomatoes">Tomatoes</label>
+            </div>
+
+            <div class="dips">
+                    <h4>Select Dips : </h4>
+                    <label for="garlicDip">Garlic Dipping Sauce:</label>
+                    <input type="number" name="garlicDip"><br>
+                    <label for="ranchDip">Ranch Dipping Sauce:</label>
+                    <input type="number" name="ranchDip"><br>
+                    <label for="marinaraDip">Marinara Dipping Sauce:</label>
+                    <input type="number" name="marinaraDip"><br>
+            </div>
+
+            <div class="submit">
+                <button id="submitBtn" type="submit" value="Submit">Submit</button>
+            </div>
+        </form>
+        <p class="informationToDisplayed"></p>
+    </section>
+</body>
+
+</html>
+
